@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">HDBProject</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="exhibit1">Exhibit 1</string>
+    <string name="exhibit2">Exhibit 2</string>
+    <string name="exhibit3">Exhibit 3</string>
+    <string name="exhibit4">Exhibit 4</string>
+    <string name="exhibit5">Exhibit 5</string>
+    <string name="exhibit6">Exhibit 6</string>
+    <string name="title_activity_test">TestActivity</string>
+</resources>

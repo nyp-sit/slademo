@@ -1,0 +1,14 @@
+<div class="btn-group pull-left" role="group" aria-label="...">
+  <button type="button" class="btn btn-default" ng-click='changeView("day")'>Day View</button>
+  <button type="button" class="btn btn-default" ng-click='changeView("month")'>Month View</button>
+</div>
+<div class='analytics-right pull-right'>
+  User Selection :
+  <select class='user'>
+    <option ng-repeat='device in devices'> {{ device.imei_id }}</option>
+  </select>
+
+  <h4>Past {{ view=='month' ? "Month" : "Day"}}</h4>
+<!--  <div id='legend'></div>-->
+  <canvas id='piechart' class='pie-chart'></canvas>
+</div>

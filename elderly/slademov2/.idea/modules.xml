@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/phoneapp/phoneapp.iml" filepath="$PROJECT_DIR$/phoneapp/phoneapp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sharedservices/sharedservices.iml" filepath="$PROJECT_DIR$/sharedservices/sharedservices.iml" />
+      <module fileurl="file://$PROJECT_DIR$/slademov2.iml" filepath="$PROJECT_DIR$/slademov2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/slademowatch/slademowatch.iml" filepath="$PROJECT_DIR$/slademowatch/slademowatch.iml" />
+    </modules>
+  </component>
+</project>

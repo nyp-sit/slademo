@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">SLADemo</string>
+    <string name="title_activity_maps">SLAdemo</string>
+    <string name="step_counter">android.hardware.sensor.stepcounter</string>
+    <string name="step_detector">android.hardware.sensor.stepdetector</string>
+    <string name="btn_stop_tracking">STOP TRACKING</string>
+    <string name="btn_start_tracking">START TRACKING</string>
+    <string name="title_activity_view_pager">ViewPagerActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="delay_entries">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+</resources>

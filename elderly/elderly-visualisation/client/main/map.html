@@ -1,0 +1,9 @@
+<ol id='bottom-top-half' class="breadcrumb col-xs-12">
+  <li ng-class="{'active' : option == 'current'}"><a ui-sref='map({option : "current"})'>Current Location</a></li>
+  <li ng-class="{'active' : option == 'day'}"><a ui-sref='map({option : "day"})'>Past Day</a></li>
+  <li ng-class="{'active' : option == 'week'}"><a ui-sref='map({option : "week"})'>Past Week</a></li>
+  <li ng-class="{'active' : option == 'month'}"><a ui-sref='map({option : "month"})'>Past Month</a></li>
+</ol>
+<div map-lazy-load="https://maps.google.com/maps/api/js">
+  <ng-map id='map' center="1.38,103.8" zoom="13"></ng-map>
+</div>

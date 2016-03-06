@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.wearable.view.BoxInsetLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical">
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <fypj.com.weicong.CustomFontTextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Steps Taken"
+            android:layout_marginBottom="4dp"
+            android:layout_marginTop="32dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textColor="#ff9aa3ac"
+            android:textSize="22sp"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="70dip"
+            android:id="@+id/ivTrigger"
+            android:src="@drawable/elderly_step_on"/>
+        <!--android:theme="@style/Base.TextAppearance.AppCompat.Widget.Switch" -->
+        <fypj.com.weicong.CustomFontTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Step Count:"
+            android:textColor="#ff9aa3ac"
+            android:id="@+id/tvStepsCount"
+            android:textSize="14sp"
+            android:gravity="center"/>
+        <fypj.com.weicong.CustomFontTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textColor="#ffffffff"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:id="@+id/tvStepText"/>
+
+    </LinearLayout>
+</android.support.wearable.view.BoxInsetLayout>

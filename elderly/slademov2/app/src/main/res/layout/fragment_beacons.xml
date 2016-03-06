@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+                <LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <fypj.com.weicong.CustomFontTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="Nearby Beacons"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginTop="16dp"
+                        android:gravity="center"
+                        android:textColor="#ff9aa3ac"
+                        android:textSize="22sp"
+                        android:id="@+id/tvTrafficLightTitle"/>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="100dip"
+                        android:src="@drawable/beacon_state_none"
+                        android:id="@+id/ivSignalStrength"/>
+                    <fypj.com.weicong.CustomFontTextView
+                        android:textSize="18sp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Distance :"
+                        android:textColor="#ff9aa3ac"
+                        android:gravity="center"/>
+
+                    <fypj.com.weicong.CustomFontTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="0"
+                        android:textColor="#ffffffff"
+                        android:textSize="24sp"
+                        android:gravity="center"
+                        android:id="@+id/tvDistance"
+                        />
+                </LinearLayout>

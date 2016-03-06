@@ -1,0 +1,19 @@
+{
+  "name": "hdb-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.2.31",
+    "dynamodb": "^0.3.6",
+    "express": "^4.13.3",
+    "q": "^1.4.1",
+    "request": "^2.69.0",
+    "trilateration": "0.0.1"
+  }
+}

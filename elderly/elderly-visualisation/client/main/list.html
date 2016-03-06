@@ -1,0 +1,19 @@
+<h3>List of Devices</h3>
+<table class='table table-striped'>
+  <tr>
+    <th>
+      Device ID
+    </th>
+    <th>
+      Actions
+    </th>
+  </tr>
+  <tr ng-repeat="device in devices">
+    <td>
+      {{device.imei_id}}
+    </td>
+    <td>
+      <a ui-sref='main({id : device.imei_id})'>View Devices</a>
+    </td>
+  </tr>
+</table>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+                <LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:id="@+id/llParentLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+    android:orientation="vertical">
+                <fypj.com.weicong.CustomFontTextView
+                    android:id="@+id/tvGreenManTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="16dp"
+                    android:gravity="center"
+                    android:text="Green Man +"
+                    android:textColor="#ff9aa3ac"
+                    android:textSize="22sp" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dip"
+                    android:maxHeight="100dip"
+                    android:src="@drawable/off"
+
+                    android:id="@+id/ivTrafficLight"/>
+                <fypj.com.weicong.CustomFontTextView
+                    android:id="@+id/tvMessage"
+                    android:layout_width="160dip"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textColor="#9aa3ac"
+                    android:text="No traffic lights nearby"
+                    android:textSize="18sp" />
+                </LinearLayout>

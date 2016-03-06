@@ -1,0 +1,170 @@
+<html>
+  <head>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+    <style>
+    html, body {
+       height: 100%;
+       margin: 0;
+       padding: 0;
+     }
+     .center {
+     width:80%;
+     margin : auto;
+    }
+    .inline{
+      display: inline-block;
+      text-align: center;
+    }
+    .row{
+      width: 100%;
+      padding : 0px !important;
+      margin: 0px !important;
+    }
+     #map {
+       height: 100%;
+     }
+      .breadcrumb{
+        text-align: center;
+        font-size: 2em;
+
+        background-color: #2196F3;
+
+        margin: auto;
+        padding: 70px 0px 20px 0px;
+        border-radius: 0px !important;
+      }
+      .breadcrumb li a:before{
+        content : "";
+      }
+      .breadcrumb li{
+          color : lightskyblue;
+      }
+      .breadcrumb a{
+        color : rgba(255, 255, 255, 1);
+      }
+      .breadcrumb .active{
+        font-size: 2.2em;
+        color:white;
+      }
+      .breadcrumb>li+li:before{
+        content: "";
+      }
+      .bottom{
+        width : 100%;
+      }
+      .bottom .breadcrumb{
+        width : 100%
+      }
+      .bottom .map{
+        width: 100%;
+      }
+
+      h1{
+        font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+      }
+      p {
+        font-family: 'Merriweather', Georgia, serif;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin-bottom: 0px !important;
+      }
+      .top{
+        text-align: center;
+        background-image: url("grey.png");
+      }
+      .top-words{
+      }
+      .top h1{
+        text-align: center;
+        color: white;
+        font-size: 65px !important;
+        padding-top : 101px;
+      }
+      .top p{
+        font-size: 1.4em;
+        color: white;
+      }
+      .colored-line{
+        background-color : #ffffff !important;
+        height:1px;
+        text-align: center;
+        width : 200px;
+        margin: auto;
+      }
+      .heading{
+        padding: 10px;
+        margin: 0px auto 0px;
+        padding-bottom: 24px;
+        width: 60%;
+        text-align: center;
+      }
+      .top-image{
+        width : 100%;
+      }
+    </style>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
+    <link href=’http://fonts.googleapis.com/css?family=Merriweather&#8217;
+rel=’stylesheet’ type=’text/css’>
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,700" />
+    <script>
+    var map = new google.maps.Map(document.getElementById('map'), {
+       center: {lat: -34.397, lng: 150.644},
+       zoom: 8
+     });
+    </script>
+  </head>
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Elderly Tracking</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse navbar-right">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Indoor Tracking</a></li>
+            <li><a href="#location">Location</a></li>
+            <li><a href="#analytics">Analytics</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+    <div id='indoor' class='top row'>
+      <div class='top-words'>
+          <h1 class='center'>Indoor Tracking</h1>
+        <div class='heading'>
+          <div class='colored-line'></div>
+          <p>
+            Lorem ipsum dolor sit amet, qui te sanctus definiebas, cum suscipit intellegam adversarium ea, cu pro postea timeam mnesarchum. Dicta libris causae et his. Modus salutandi referrentur ea ius. An sint augue mea.
+          </p>
+
+          <div class='colored-line'></div>
+        </div>
+      </div>
+      <div class='top-image'>
+        <img class='inline' width='700px' src='floorplan.png'/>
+      </div>
+    </div>
+    <div id='location' class='bottom'>
+      <ol class="breadcrumb col-xs-12">
+        <li class="active">Current Location</li>
+        <li><a href="#">Past Day</a> /</li>
+        <li><a href="#">Past Week</a> /</li>
+        <li><a href="#">Past Month</a> /</li>
+      </ol>
+      <img class='map' src='small.jpg'/>
+    </div>
+  </body>
+</html>

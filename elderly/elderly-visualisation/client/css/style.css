@@ -1,0 +1,142 @@
+html, body {
+   height: 100%;
+   margin: 0;
+   padding: 0;
+ }
+ .center {
+ width:80%;
+ margin : auto;
+}
+.inline{
+  display: inline-block;
+  text-align: center;
+}
+.row{
+  width: 100%;
+  padding : 0px !important;
+  margin: 0px !important;
+}
+ #map {
+   height: 30%;
+   width : 100%;
+ }
+  .breadcrumb{
+    text-align: center;
+    font-size: 2em;
+
+    background-color: #2196F3;
+
+    margin: auto;
+    padding: 70px 0px 20px 0px;
+    border-radius: 0px !important;
+    float : none !important;
+  }
+  .breadcrumb li a:before{
+    content : "";
+  }
+  .breadcrumb a{
+    color : rgba(255, 255, 255, 1);
+  }
+  .breadcrumb .active{
+    font-size: 2.2em;
+    color:white;
+  }
+  .breadcrumb li:not(.active) a:after{
+    content : "/";
+    color : lightskyblue;
+  }
+  .breadcrumb>li+li:before{
+    content: "";
+  }
+  .bottom{
+    width : 100%;
+  }
+  .bottom .breadcrumb{
+    width : 100%
+  }
+  .bottom .map{
+    width: 100%;
+  }
+
+  h1{
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  }
+  p {
+    font-family: 'Merriweather', Georgia, serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 0px !important;
+  }
+  .top{
+    text-align: center;
+    background-image: url("../img/grey.png");
+  }
+  .top-words{
+  }
+  .top h1{
+    text-align: center;
+    color: white;
+    font-size: 65px !important;
+    padding-top : 101px;
+  }
+  .top p{
+    font-size: 1.4em;
+    color: white;
+  }
+  .colored-line{
+    background-color : #ffffff !important;
+    height:1px;
+    text-align: center;
+    width : 200px;
+    margin: auto;
+  }
+  .heading{
+    padding: 10px;
+    margin: 0px auto 0px;
+    padding-bottom: 24px;
+    width: 60%;
+    text-align: center;
+  }
+  .top-image{
+    width : 100%;
+  }
+  .bottom-second {
+    background-color: #FF9100;
+    color :white;
+    text-align: center;
+  }
+  .bottom-second .inner{
+    margin:auto;
+    width : 80%;
+  }
+  .bottom-second .side-by-side{
+    display: flex;
+justify-content: center; /* align horizontal */
+align-items: center; /* align vertical */
+  }
+  .bottom-second .legend{
+    display: inline-block;
+  }
+  .bottom-second li{
+    list-style-type: none;
+    display: block;
+    text-align: left;
+    font-size: 2.1em;
+  }
+  .bottom-second h4{
+    font-size:2.4em !important;
+    padding: 30px !important;
+    margin : 0px !important;
+  }
+
+  /* nav bar*/
+  .navbar-default{
+    background-color : white;
+  }
+  .navbar li{
+    color : black;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  }
+  .navbar li:active{
+    color: black;
+  }

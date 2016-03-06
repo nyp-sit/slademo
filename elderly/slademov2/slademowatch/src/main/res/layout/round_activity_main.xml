@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context=".MainActivity" tools:deviceIds="wear_round"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!--
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vpPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/backgroundwatchjpeg"/>
+    <!--
+    <android.support.wearable.view.GridViewPager
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:id="@+id/gvp">
+    </android.support.wearable.view.GridViewPager>-->
+    <android.support.v4.view.ViewPager
+        android:id="@+id/gvp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <!--<com.augustopicciani.drawablepageindicator.widget.DrawablePagerIndicator
+        android:id="@+id/page_indicator"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal|bottom"
+        app:imageSpacing="-8"
+        app:centered="true"
+        android:layout_weight="9"
+        app:drawableSelected="@drawable/selected_indicator"
+        app:drawableDefault="@drawable/default_indicator"
+        />-->
+</FrameLayout>

@@ -1,0 +1,30 @@
+<RelativeLayout
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/tvSteps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#03A9F4"
+        android:gravity="top"
+        android:text="Please start tracking to count steps!"/>
+
+    <TextView
+        android:id="@+id/tvBeacon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvSteps"
+        android:background="#FFEB3B"
+        android:gravity="top"
+        android:text="Detecting any iBeacons.."/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0 beacons"
+        android:textSize="24sp"
+        android:id="@+id/tvBeaconCount"
+        android:layout_centerInParent="true"/>
+
+</RelativeLayout>

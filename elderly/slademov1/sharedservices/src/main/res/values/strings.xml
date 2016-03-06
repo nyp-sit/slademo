@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Shared Services</string>
+
+    <string-array name="locations_geofence">
+        <!--<item>1.34225,103.73755166666666</item> Jurong east-->
+        <item>1.3780685, 103.85062210000001</item>
+    </string-array>
+</resources>
